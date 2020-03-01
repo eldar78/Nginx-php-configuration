@@ -20,6 +20,6 @@ define php in server config
         fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
         include fastcgi_params;
         fastcgi_intercept_errors on;
-        fastcgi_param HTTPS on;
-  }
-}
+        #fastcgi_param HTTPS on;
+      }
+    }
